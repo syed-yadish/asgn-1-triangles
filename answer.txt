@@ -1,0 +1,7 @@
+Answer the question why JavaScript needs the parentheses in this case?
+
+JavaScript has operators precedence. () has higher precedence than multiplication and division. 
+In this case inorder to calculta area, we need to multiply (base and height) first and then 
+divide the answer with 2. We use paranthesis around (base*height) so that they can be calculated first.
+Multiplication and division has same precedence. Even if we dont put paranthesis and write base*height/2, 
+javascript performs calculations on multiplication and division left to right, this should not effect the result.
